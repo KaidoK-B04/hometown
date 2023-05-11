@@ -11,15 +11,14 @@ img {
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   background-size: cover;
 }
-.pic1 {
-
-}
 .hero {
   background-size: cover;
   padding: 100px 0 40px 0;
   height: 300px;
   background-image: url(blomst.jpg);
   margin: 0;
+  max-width: 100%;
+  
 }
 h1, h2 {
   background-color: #248304;
@@ -52,6 +51,7 @@ h3 {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #f1faee;
 }
 
 .guide-section {
