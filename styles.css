@@ -58,7 +58,11 @@ img {
   width: 150px;
   height: 150px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  box-shadow: 2px 2px 4px #000000;
   background-size: cover;
+  border: solid;
+  border-width: 3px;
+  border-color: white;
 }
 
 .guide-section {
@@ -69,14 +73,15 @@ img {
   padding: 10px 30px;
   border-radius: 15px;
   text-align: center;
-  background-color: #248304;
-  border-bottom: 10px solid #195e02;
+  background-color: #f1f0eb;
+  border-bottom: 10px solid #248304;
 }
 
 .profile-photo {
   height: 150px;
   width: 150px;
   border-radius: 50%;
+  box-shadow: none;
   margin: auto 0;
 }
 .guide-section-right {
@@ -84,4 +89,8 @@ img {
 }
 p {
   color: rgb(0, 0, 0);
+}
+.guide-headings {
+  font-weight: bold;
+  color: #248304;
 }
